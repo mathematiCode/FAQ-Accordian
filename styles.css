@@ -90,6 +90,10 @@ body {
 }
 
 br {
-    color: lightgray;
-    stroke-width: 12%;
+    color: rgb(231, 231, 231);
+    stroke-width: 4%;
+}
+
+.icon {
+    margin-right: 10px;
 }
