@@ -24,21 +24,40 @@ const toggleButton2 = document.getElementById("q2-toggle");
 const toggleButton3 = document.getElementById("q3-toggle");
 const toggleButton4 = document.getElementById("q4-toggle");
 
+const question1 = document.getElementById("q1");
+const question2 = document.getElementById("q2");
+const question3 = document.getElementById("q3");
+const question4 = document.getElementById("q4");
 
 
 
-document.getElementById("q1-toggle").addEventListener("click", function () {
+toggleButton1.addEventListener("click", function () {
     showHideAnswer(answer1, toggleButton1);
 });
 
-document.getElementById("q2-toggle").addEventListener("click", function () {
+q1.addEventListener("click", function () {
+    showHideAnswer(answer1, toggleButton1);
+});
+
+toggleButton2.addEventListener("click", function () {
+    showHideAnswer(answer2, toggleButton2);
+});
+q2.addEventListener("click", function () {
     showHideAnswer(answer2, toggleButton2);
 });
 
-document.getElementById("q3-toggle").addEventListener("click", function () {
+toggleButton3.addEventListener("click", function () {
     showHideAnswer(answer3, toggleButton3);
 });
 
-document.getElementById("q4-toggle").addEventListener("click", function () {
+q3.addEventListener("click", function () {
+    showHideAnswer(answer3, toggleButton3);
+});
+
+toggleButton4.addEventListener("click", function () {
+    showHideAnswer(answer4, toggleButton4);
+});
+
+q4.addEventListener("click", function () {
     showHideAnswer(answer4, toggleButton4);
 });

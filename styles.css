@@ -1,12 +1,8 @@
 :root {
     font-size: 16px;
     font-family: "Work Sans", sans serif;
-    color: hsl(292, 42%, 14%);
+    color: hsl(292, 42%, 22%);
 
-}
-
-h1 {
-    font-size: 3rem;
 }
 
 .attribution {
@@ -44,7 +40,7 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 3rem;
     display: flex;
     align-items: center;
 }
@@ -76,9 +72,6 @@ body {
     #white-container {
         width: 60%;
         /* Adjust the width for smaller screens if needed */
-        height: auto;
-        /* Adjust the height for smaller screens if needed */
-        /* Adjust the vertical translation */
     }
 }
 
