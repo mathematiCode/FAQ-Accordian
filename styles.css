@@ -13,8 +13,8 @@
     margin-right: 15px;
     width: 40%;
     min-height: 50%;
-    max-height: auto;
     position: absolute;
+    overflow-y: auto;
     left: 50%;
     transform: translate(-50%, -150%);
     background: white;
